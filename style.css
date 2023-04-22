@@ -1,0 +1,35 @@
+h1, h2, h3 {color: #0326f0e7;
+}
+body{
+    background-color:#fffea8;
+}
+a{
+    color: #0477fae7;
+}
+p{color: indigo;
+}
+image{
+    width: 500px;
+    margin-left: 350;
+}
+.mini_1{
+    width: 50px;
+    margin-left: 150
+}
+.mini_2{
+    width: 150px;
+    margin-left: 150
+}
+.bigtext{
+    font-size: 1.5rem;
+    font-family: '1st Enterprises Chrome';
+}
+@font-face {
+	font-family: '1st Enterprises Chrome';
+	src: url('fonts/1st_enterprises_chrome.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/1st_enterprises_chrome.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/1st_enterprises_chrome.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/1st_enterprises_chrome.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/1st_enterprises_chrome.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/1st_enterprises_chrome.svg#1st_enterprises_chrome') format('svg'); /* Chrome < 4, Legacy iOS */
+}
